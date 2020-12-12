@@ -1,5 +1,34 @@
 .works-container {
   background-color: #50bdd4;
   margin: 0;
-  height: 687px;
+  height: 781px;
+}
+
+.diagonal-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 18%;
+}
+
+.diagonal {
+  width: 50%;
+  height: 4px;
+  background-color: white;
+  transform: skewY(25deg);
+  position: relative;
+  z-index: 101;
+  top: 135px;
+  left: 600px;
+}
+
+#d2 {
+  top: 98px;
+  left: 525px;
+}
+
+#d3 {
+  top: 63px;
+  left: 450px;
 }
