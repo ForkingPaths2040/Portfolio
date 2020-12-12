@@ -30,4 +30,18 @@
   margin: 0;
   left: 50px;
   top: 10px;
+  z-index: 100;
+}
+.page-buttons {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  justify-content: space-evenly;
+  position: relative;
+  top: -100px;
+  left: 100px;
+}
+
+.horizontalSlider___281Ls {
+  height: 430px;
 }

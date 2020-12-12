@@ -11,7 +11,7 @@ function Landing(props) {
         <h1 id="commented">// one line at a time.</h1>
       </div>
       <div id='monoton'>
-        <h1>LANDING PAGE</h1>
+        <h1>LANDING &nbsp; PAGE</h1>
         </div>
       </div>
     </div>
