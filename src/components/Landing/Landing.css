@@ -1,0 +1,45 @@
+.landing-container {
+  background-color: #f34d4d;
+  margin: 0;
+  height: 687px;
+}
+
+.landing-box {
+  position: relative;
+  height: 85%;
+  width: 85%;
+  top: 0px;
+  left: 90px;
+  padding: 90px 0 0 120px;
+  border-left: solid 4px white;
+  border-top: solid 4px white;
+}
+
+.landing-container h1 {
+  font-family: "Comfortaa", cursive;
+  margin: 0;
+  font-size: 48px;
+}
+
+#commented,
+#hello {
+  color: white;
+}
+
+#second-line {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  width: 75%;
+  text-align: right;
+}
+
+#monoton {
+  font-family: "Monoton", cursive;
+  font-size: 96px;
+  font-weight: 100;
+  text-align: right;
+  padding-right: 40px;
+  position: relative;
+  top: 230px;
+}
