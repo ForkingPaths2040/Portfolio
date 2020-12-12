@@ -1,10 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll'
 import './Header.css'
 
 function Header(props) {
+  const [navbar, setNavbar] = useState('#f34d4d')
+  
+  const changeBackground = () => {
+    if (window.scrollY > 687) {
+      setNavbar("#50bdd4")
+    } else {
+      setNavbar("#f34d4d")
+    }
+  }
+
+  window.addEventListener('scroll', changeBackground)
   return (
-    <nav className='nav-container'>
+    <nav style={{
+      backgroundColor: navbar
+    }} className='nav-container'>
       <h1 className='logo'>MOORE</h1>
           <ul className='nav-items'>
             <Link to='/employees'><li>Home</li></Link>

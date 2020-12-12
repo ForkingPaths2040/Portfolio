@@ -34,7 +34,7 @@
   text-align: right;
 }
 
-#monoton {
+#monoton > h1 {
   font-family: "Monoton", cursive;
   font-size: 96px;
   font-weight: 100;
