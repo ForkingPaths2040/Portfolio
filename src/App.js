@@ -4,6 +4,7 @@ import Landing from './components/Landing/Landing';
 import Works from './components/Works/Works';
 import {Route} from 'react-router-dom'
 import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 
 
 
@@ -15,6 +16,7 @@ function App() {
         <Landing />
         <Works />
         <About />
+        <Contact />
       </Route>
       
     </div>

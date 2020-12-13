@@ -10,8 +10,10 @@ function Header(props) {
       setNavbar("#f34d4d")
     } else if(window.scrollY < 1478){
       setNavbar("#50bdd4")
-    } else {
+    } else if(window.scrollY < 2160){
       setNavbar("#50bd89")
+    } else {
+      setNavbar("#fd9950")
     }
   }
 
