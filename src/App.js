@@ -3,6 +3,7 @@ import './App.css';
 import Landing from './components/Landing/Landing';
 import Works from './components/Works/Works';
 import {Route} from 'react-router-dom'
+import About from './components/About/About';
 
 
 
@@ -13,6 +14,7 @@ function App() {
         <Header />
         <Landing />
         <Works />
+        <About />
       </Route>
       
     </div>
