@@ -3,7 +3,8 @@ import './App.css';
 import Landing from './components/Landing/Landing';
 import Works from './components/Works/Works';
 import {Route} from 'react-router-dom'
-import ProjectCarousel from './components/ProjectCarousel/ProjectCarousel';
+import About from './components/About/About';
+
 
 
 function App() {
@@ -13,10 +14,9 @@ function App() {
         <Header />
         <Landing />
         <Works />
+        <About />
       </Route>
-      <Route exact path='/slider'>
-        <ProjectCarousel />
-      </Route>
+      
     </div>
   );
 }

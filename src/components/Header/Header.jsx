@@ -6,10 +6,12 @@ function Header(props) {
   const [navbar, setNavbar] = useState('#f34d4d')
   
   const changeBackground = () => {
-    if (window.scrollY > 687) {
+    if (window.scrollY < 687) {
+      setNavbar("#f34d4d")
+    } else if(window.scrollY < 1478){
       setNavbar("#50bdd4")
     } else {
-      setNavbar("#f34d4d")
+      setNavbar("#50bd89")
     }
   }
 

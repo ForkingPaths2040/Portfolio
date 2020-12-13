@@ -23,7 +23,8 @@ function Projects(props) {
       <CarouselProvider
         naturalSlideWidth={100}
         naturalSlideHeight={125}
-        totalSlides={3}
+          totalSlides={3}
+          dragEnabled={false}
       >
         <Slider>
             <Slide index={0}>
@@ -36,7 +37,7 @@ function Projects(props) {
                 </div>
       <div className="description-container">
         <h3>Pointual <span id="project-label">| Full Stack via React on Rails</span></h3>
-        <p className="project-description">A full-stack productivity tool that allows users to track points against a time and attendance policy.</p>
+        <p className="project-description">A full-stack productivity tool that allows users to track points against a time and attendance policy along with the ability to add, edit or delete submissions.</p>
         <div className="toolkit-icons">
                   <FontAwesomeIcon icon={faJsSquare} size="2x" style={{ color: "rgb(143, 143, 143)" }}/>
                   <FontAwesomeIcon icon={faHtml5} size="2x"  style={{ color: "rgb(143, 143, 143)" }}/>
