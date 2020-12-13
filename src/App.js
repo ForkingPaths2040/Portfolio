@@ -10,11 +10,11 @@ import Contact from './components/Contact/Contact';
 function App() {
   return (
     <div >
-        <Header />
-        <Landing id={'section1'}/>
-        <Works />
-        <About />
-        <Contact />
+      <Header />
+      <Landing id='section1' />
+      <Works />
+      <About />
+      <Contact />
     </div>
   );
 }

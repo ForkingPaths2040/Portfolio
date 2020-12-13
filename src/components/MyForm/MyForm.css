@@ -1,0 +1,24 @@
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.contact-form > input {
+  width: 60%;
+  height: 23%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+}

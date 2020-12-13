@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll'
+import {Link} from 'react-router-dom'
 import './Header.css'
+
 
 function Header(props) {
   const [navbar, setNavbar] = useState('#f34d4d')
@@ -24,7 +25,7 @@ function Header(props) {
     }} className='nav-container'>
       <h1 className='logo'>MOORE</h1>
           <ul className='nav-items'>
-            <Link to='/#section1'><li>Home</li></Link>
+            <Link><li>Home</li></Link>
             <Link to='/employees'><li>Work</li></Link>
             <Link to='/employees'><li>About</li></Link>
             <Link to='/employees'><li>Contact</li></Link>
