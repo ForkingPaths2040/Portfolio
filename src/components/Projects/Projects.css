@@ -1,14 +1,24 @@
 .project-container {
-  padding-left: 15%;
-  padding-top: 2%;
+  padding-left: 5%;
+  padding-top: 0%;
 }
 
-.pointual {
-  width: 500px;
+.project-img {
+  width: 550px;
   height: auto;
   border-radius: 3%;
 }
 
+.project-feature {
+  display: flex;
+  flex-direction: row;
+}
+.project-icons {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+  justify-content: space-evenly;
+}
 .description-container {
   position: relative;
   left: 450px;
@@ -38,10 +48,37 @@
   width: 100px;
   justify-content: space-evenly;
   position: relative;
-  top: -100px;
-  left: 100px;
+  top: -90px;
+  left: 220px;
 }
 
 .horizontalSlider___281Ls {
-  height: 430px;
+  height: 450px;
+}
+
+.carousel-button {
+  font-size: 13px;
+  color: black;
+  background-color: #50bdd4;
+  border: 0;
+  width: 69px;
+  height: 30px;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  cursor: pointer;
+  margin: 0px;
+}
+#project-label {
+  color: rgb(143, 143, 143);
+  font-weight: 300;
+}
+
+.toolkit-icons {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 90%;
+  border-top: solid 1px lightgrey;
+  padding: 10px 0;
+  justify-content: space-evenly;
 }
