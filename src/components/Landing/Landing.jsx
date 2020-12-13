@@ -10,8 +10,8 @@ function Landing(props) {
         <h1>I am a software engineer specializing in full-stack applications</h1>
         <h1 id="commented">// one line at a time.</h1>
       </div>
-      <div>
-        <h1 id='monoton'>LANDING PAGE</h1>
+      <div id='monoton'>
+        <h1>LANDING &nbsp; PAGE</h1>
         </div>
       </div>
     </div>
