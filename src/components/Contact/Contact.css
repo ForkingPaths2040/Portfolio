@@ -1,0 +1,48 @@
+.contact-container {
+  background-color: #fd9950;
+  margin: 0;
+  height: 682px;
+}
+.contact-border {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  border-right: solid 4px white;
+  border-bottom: solid 4px white;
+}
+
+#contact-title {
+  width: 100%;
+  font-family: "Monoton", cursive;
+  font-size: 96px;
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+}
+
+.my-info {
+  position: relative;
+  top: -235px;
+  left: 700px;
+  width: 32%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+
+.info-row > p {
+  margin: 0;
+}
+
+div.clickable :hover {
+  color: white;
+}
