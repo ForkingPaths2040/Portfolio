@@ -21,14 +21,14 @@ export default class MyForm extends React.Component {
         method="POST"
       >
         <label>Full Name:</label>
-        <input type="text" name="name" />
+        <input type="text" name="name" required />
         <label>Email:</label>
-        <input type="email" name="email" />
+        <input type="email" name="email" required />
         <label>Subject:</label>
-        <input type="text" name="subject" />
+        <input type="text" name="subject" required />
         <label>Message:</label>
-        <input type="text" name="message" />
-        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+        <textarea type="text" name="message" required id="form-message"/>
+        {status === "SUCCESS" ? <p className="submit-message">Thank you for being interested in <span id="moore">MOORE</span> potential.</p> : <button className='button-form'>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </form>
         </div>
