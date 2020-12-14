@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-scroll'
 import './Header.css'
 
 
@@ -25,10 +25,10 @@ function Header(props) {
     }} className='nav-container'>
       <h1 className='logo'>MOORE</h1>
           <ul className='nav-items'>
-            <Link><li>Home</li></Link>
-            <Link to='/employees'><li>Work</li></Link>
-            <Link to='/employees'><li>About</li></Link>
-            <Link to='/employees'><li>Contact</li></Link>
+            <Link activeClass="active" to="landing" spy={true} smooth={true} duration={100}><li>Home</li></Link>
+            <Link activeClass="active" to="work" spy={true} smooth={true} duration={100} ><li>Work</li></Link>
+            <Link activeClass="active" to="about" spy={true} smooth={true} duration={100} ><li>About</li></Link>
+            <Link activeClass="active" to="contact" spy={true} smooth={true} duration={100} ><li>Contact</li></Link>
           </ul>
     </nav>
   );

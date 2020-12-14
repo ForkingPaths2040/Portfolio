@@ -11,7 +11,7 @@ function App() {
   return (
     <div >
       <Header />
-      <Landing id='section1' />
+      <Landing />
       <Works />
       <About />
       <Contact />

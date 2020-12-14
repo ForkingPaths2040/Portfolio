@@ -3,7 +3,7 @@ import './Landing.css'
 
 function Landing(props) {
   return (
-    <div className="landing-container">
+    <div className="landing-container" id="landing">
       <div className="landing-box">
         <h1 id="first-line"><span id="hello">Hello,</span> my name is Amber Moore.</h1>
       <div id="second-line">
