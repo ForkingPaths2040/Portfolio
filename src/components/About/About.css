@@ -55,15 +55,11 @@
   position: absolute;
   top: 1600px;
   left: 600px;
-  animation: stepping 6s infinite, roll 3s infinite linear;
+  animation: stepping 8s infinite, roll 8s infinite linear;
   transform: rotate(30deg);
 }
 @keyframes stepping {
   0% {
-    left: 560px;
-    top: 1600px;
-  }
-  12% {
     left: 560px;
     top: 1700px;
   }
@@ -98,7 +94,13 @@
 }
 
 @keyframes roll {
+  25% {
+    transform: rotate(360deg);
+  }
   50% {
+    transform: rotate(0deg);
+  }
+  75% {
     transform: rotate(360deg);
   }
   100% {
