@@ -35,3 +35,16 @@
   font-family: "Comfortaa", cursive;
   font-size: 18px;
 }
+
+.button-2 {
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
+  color: black;
+  background-color: transparent;
+  border: solid 1px white;
+  width: 90px;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  cursor: pointer;
+  padding: 10px 0;
+}
