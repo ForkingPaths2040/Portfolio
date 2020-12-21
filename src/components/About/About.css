@@ -46,3 +46,70 @@
   left: 550px;
   top: -500px;
 }
+
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1600px;
+  left: 600px;
+  animation: stepping 6s infinite, roll 3s infinite linear;
+  transform: rotate(30deg);
+}
+@keyframes stepping {
+  0% {
+    left: 560px;
+    top: 1600px;
+  }
+  12% {
+    left: 560px;
+    top: 1700px;
+  }
+  25% {
+    left: 800px;
+    top: 1700px;
+  }
+  37% {
+    left: 1180px;
+    top: 1825px;
+  }
+  50% {
+    left: 930px;
+    top: 1825px;
+  }
+  63% {
+    left: 700px;
+    top: 1970px;
+  }
+  75% {
+    left: 950px;
+    top: 1970px;
+  }
+  87% {
+    left: 1275px;
+    top: 2140px;
+  }
+  100% {
+    left: 1060px;
+    top: 2140px;
+  }
+}
+
+@keyframes roll {
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.dash {
+  width: 2px;
+  background-color: black;
+  height: 25%;
+  position: relative;
+  left: 50%;
+}
