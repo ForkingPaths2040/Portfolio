@@ -1,0 +1,12 @@
+.timeline-container {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timeline-img {
+  width: 150px;
+  height: auto;
+}

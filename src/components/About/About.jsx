@@ -1,5 +1,7 @@
 import React from 'react';
 import './About.css'
+import wtamu from '../../assets/images/SpiritWT-NewDigital.png'
+import Timeline from '../Timeline/Timeline'
 
 function About(props) {
   return (
@@ -12,6 +14,7 @@ function About(props) {
       <div className="horizontal" id="hz1"></div>
       <div className="horizontal" id="hz2"></div>
       <div className="horizontal" id="hz3"></div>
+      <Timeline year="2013" img={wtamu} alt="West Texas A&M University logo" title="West Texas A&M University" description="This is some text"/>
       <div className="horizontal" id="hz4"></div>
     </div>
   );
