@@ -1,12 +1,65 @@
-.timeline-container {
-  width: 300px;
-  height: 350px;
+.timeline-card-container {
+  max-width: 270px;
+  max-height: 300px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  background-color: white;
+  align-items: center;
+  border-radius: 10%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+#timeline-description > h3 {
+  word-wrap: break-word;
+  width: 70%;
+  margin-bottom: 10px;
+  padding-left: 28px;
+}
+
+#timeline-description > p {
+  font-size: 14px;
+  height: 300px;
+  width: 80%;
+  font-weight: 500;
+  line-height: 150%;
+  margin: 0 auto;
+}
+
+.timeline-img-container {
+  width: 150px;
+  height: 88px;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
 .timeline-img {
-  width: 150px;
-  height: auto;
+  height: 100%;
+}
+
+.main-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 88px;
+}
+
+#timeline-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(50px);
+  transition: all 0.3s;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 auto;
+}
+.timeline-card-container:hover #timeline-description {
+  transform: translateY(-245px);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 100%;
 }
