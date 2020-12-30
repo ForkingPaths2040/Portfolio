@@ -24,12 +24,13 @@ function Header(props) {
       backgroundColor: navbar
     }} className='nav-container'>
       <h1 className='logo'>MOORE</h1>
-          <ul className='nav-items'>
+      <ul className='nav-items'>
             <Link activeClass="active" to="landing" spy={true} smooth={true} duration={100}><li>Home</li></Link>
             <Link activeClass="active" to="work" spy={true} smooth={true} duration={100} ><li>Work</li></Link>
             <Link activeClass="active" to="about" spy={true} smooth={true} duration={100} ><li>About</li></Link>
             <Link activeClass="active" to="contact" spy={true} smooth={true} duration={100} ><li>Contact</li></Link>
-          </ul>
+            <a href="https://drive.google.com/file/d/1WlFwlV7kWoaWVTVmOSs4i2H5f2K8WnJJ/view?usp=sharing" ><li><button className="button-2">Resume</button></li></a>
+      </ul>
     </nav>
   );
 }
