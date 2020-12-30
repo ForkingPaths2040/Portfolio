@@ -29,7 +29,7 @@ function Header(props) {
             <Link activeClass="active" to="work" spy={true} smooth={true} duration={100} ><li>Work</li></Link>
             <Link activeClass="active" to="about" spy={true} smooth={true} duration={100} ><li>About</li></Link>
             <Link activeClass="active" to="contact" spy={true} smooth={true} duration={100} ><li>Contact</li></Link>
-            <a href="https://drive.google.com/file/d/1WlFwlV7kWoaWVTVmOSs4i2H5f2K8WnJJ/view?usp=sharing" ><li><button className="button-2">Resume</button></li></a>
+            <a href="https://drive.google.com/file/d/1WlFwlV7kWoaWVTVmOSs4i2H5f2K8WnJJ/view?usp=sharing" target="_blank" rel="noreferrer"><li><button className="button-2">Resume</button></li></a>
       </ul>
     </nav>
   );
